@@ -1,0 +1,205 @@
+
+
+@import 'partials/nav';
+
+
+body{
+  margin:0;
+  color:#cfbea5;
+  background-color: 	#fbffd9;
+}
+//homepage----
+
+
+
+  #home{
+  width:100%;
+  height:100vh;
+/*    h1{
+      text-align: center;
+
+  font-family: 'Orbitron', sans-serif;
+      font-size: 70px;
+
+    }*/
+
+    img{
+
+padding-left: 30%;
+
+  }
+
+
+  }
+
+
+
+
+
+#colors{
+  background-color: white!important;
+      width:100%;
+    //  height:100vh;
+    //  display:table;
+  //    display: flex;
+}
+#flexbox{
+  max-width: 740px;
+  display:flex;
+  margin: 0 auto;
+}
+
+#flexbox1{
+  max-width: 740px;
+  display:flex;
+//  margin:0 auto;
+
+
+}
+.column2{
+padding:10px;
+margin:10px;
+flex-grow: 1;
+flex-shrink:1;
+}
+
+#flexbox2{
+  max-width: 740px;
+  display:flex;
+  //margin: 0 auto;
+
+}
+.column{
+  flex-grow: 1;
+  flex-shrink: 1;
+padding:10px;
+margin:10px;
+}
+.column:first-of-type {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.column2:first-of-type {
+  flex-grow:1;
+  flex-shrink: 1;
+}
+.columnelm{
+  margin-left: 15%;
+  margin-top: 20%;
+}
+.columnheader{
+  margin-left:55%;
+  margin-top:20%;
+}
+#colhead {
+  max-width: 740px;
+
+  display: flex;
+}
+
+.columnheader {
+  margin: 10px;
+}
+
+#col {
+-moz-column-count: 3;
+-webkit-column-count: 3;
+column-count: 3;
+color: black;
+}
+/*flex-->
+
+
+.column2:first-child {
+	margin-right: 20px!important;
+}
+
+
+.column2{
+  margin:10px;
+  border: 5px solid red;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+.column2:first-of-type{
+ flex-grow: 3;
+ flex-shrink:3;
+}
+#flexbox-first-of-type .column:first-of-type{
+
+  flex: 2 2 22px;
+}
+
+#flexbox2-first-of-type .column:first-of-type{
+
+  flex: 2 2 22px;
+}
+*/
+
+
+.box
+{
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+
+
+#portfolios{
+      width:100%;
+      height:100vh;
+    //  display: table;
+      background-color: pink;
+    }
+
+
+
+
+
+#elements{
+  background-color: white;
+  width:100%;
+//  height:100vh;
+  display: table;
+    }
+
+
+#headers{
+  background-color: grey;
+  width:100%;
+  height:100vh;
+    }
+
+    #features{
+      background-color: white;
+      width:100%;
+      height:100vh;
+        }
+        #demos{
+          background-color: black;
+          width:100%;
+          height:100vh;
+            }
+            #contact{
+              background-color: grey;
+              width:100%;
+              height:100vh;
+                }
+
+
+
+
+
+
+
+
+
+footer{
+
+  font-size: 20px;
+  color: #aea79e;
+  text-align: center;
+  font-weight: bold;
+  }
