@@ -59,11 +59,46 @@ setInterval(
       index++;
     }
   }
-, 1000);
+, 2000);
 /*"#CCFFFF","#99FFCC",*/
+$(".labelfig1").hover(
+  function(){
+    $("figcaption1").toggle();
 
 
+  });
+  $(".labelfig2").hover(
+    function(){
+      $(".figcaption2").toggle();
 
+
+    });
+    $(".labelfig3").hover(
+      function(){
+        $(".figcaption3").toggle();
+
+
+      });
+
+
+      $(".labelfig4").hover(
+        function(){
+          $("figcaption4").toggle();
+
+
+        });
+        $(".labelfig5").hover(
+          function(){
+            $(".figcaption5").toggle();
+
+
+          });
+          $(".labelfig6").hover(
+            function(){
+              $(".figcaption6").toggle();
+
+
+            });
 
 
 

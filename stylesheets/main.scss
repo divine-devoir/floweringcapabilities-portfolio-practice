@@ -9,8 +9,9 @@ body{
   background-color: 	#fbffd9;
 }
 //homepage----
-
-
+.hex2{
+  margin-top: 10px;
+}
 
   #home{
   width:100%;
@@ -39,120 +40,150 @@ padding-left: 30%;
 #colors{
   background-color: white!important;
       width:100%;
-    //  height:100vh;
+      height:100vh;
     //  display:table;
-  //    display: flex;
-}
-#flexbox{
-  max-width: 740px;
-  display:flex;
-  margin: 0 auto;
-}
-
-#flexbox1{
-  max-width: 740px;
-  display:flex;
-//  margin:0 auto;
-
-
-}
-.column2{
-padding:10px;
-margin:10px;
-flex-grow: 1;
-flex-shrink:1;
-}
-
-#flexbox2{
-  max-width: 740px;
-  display:flex;
-  //margin: 0 auto;
-
-}
-.column{
-  flex-grow: 1;
-  flex-shrink: 1;
-padding:10px;
-margin:10px;
-}
-.column:first-of-type {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-.column2:first-of-type {
-  flex-grow:1;
-  flex-shrink: 1;
-}
-.columnelm{
-  margin-left: 15%;
-  margin-top: 20%;
-}
-.columnheader{
-  margin-left:55%;
-  margin-top:20%;
-}
-#colhead {
-  max-width: 740px;
-
-  display: flex;
-}
-
-.columnheader {
-  margin: 10px;
-}
-
-#col {
--moz-column-count: 3;
--webkit-column-count: 3;
-column-count: 3;
-color: black;
-}
-/*flex-->
-
-
-.column2:first-child {
-	margin-right: 20px!important;
+      //display: flex;
 }
 
 
-.column2{
-  margin:10px;
-  border: 5px solid red;
-  flex-grow: 2;
-  flex-shrink: 2;
+
+
+.figcaption1{
+  float: left;
+  border: 5px solid black;
+//  padding: 15px 105px;
+  text-align: center;
+display: block;
+
+  background-color: grey;
+
 }
-.column2:first-of-type{
- flex-grow: 3;
- flex-shrink:3;
+.figcaption2{
+  float: left;
+  border: 5px solid black;
+  //padding: 15px 105px;
+  text-align: center;
+display: block;
+
+  background-color: grey;
+
 }
-#flexbox-first-of-type .column:first-of-type{
+.figcaption3{
+  float: left;
+  border: 5px solid black;
+  //padding: 15px 105px;
+  text-align: center;
+display: block;
 
-  flex: 2 2 22px;
+  background-color: grey;
+
+}
+.figcaption4{
+  float: left;
+  border: 5px solid black;
+  //padding: 15px 105px;
+  text-align: center;
+display: block;
+
+  background-color: grey;
+
+}
+.figcaption5{
+  float: left;
+  border: 5px solid black;
+  //padding: 15px 105px;
+  text-align: center;
+display: block;
+
+  background-color: grey;
+
+}
+.figcaption6{
+  float: left;
+  border: 5px solid black;
+  //padding: 15px 105px;
+  text-align: center;
+display: block;
+
+  background-color: grey;
+
 }
 
-#flexbox2-first-of-type .column:first-of-type{
 
-  flex: 2 2 22px;
+
+
+
+.labelfig1{
+  float:left;
+  margin: 5%;
 }
-*/
-
-
-.box
-{
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  margin: auto;
+.labelfig2{
+  float:left;
+    margin: 5%;
 }
+.labelfig3{
+  float: left;
+    margin: 5%;
+}
+.labelfig4{
+  float:left;
+  margin: 5%;
+}
+.labelfig5{
+  float:left;
+    margin: 5%;
+}
+.labelfig6{
+  float: left;
+    margin: 5%;
+}
+.labelfig1:hover{
 
+  opacity: 0.1;
+}
+.labelfig2:hover{
 
+  opacity: 0.1;
+}
+.labelfig3:hover{
+
+  opacity: 0.1;
+}
+.labelfig4:hover{
+
+  opacity: 0.1;
+}
+.labelfig5:hover{
+
+  opacity: 0.1;
+}
+.labelfig6:hover{
+
+  opacity: 0.1;
+}
+/*end fig------*/
 
 #portfolios{
       width:100%;
-      height:100vh;
-    //  display: table;
-      background-color: pink;
+    //  height:100vh;
+      display: table;
+      background-color: #bdcfbd;
+
+
     }
+    .hex1{
+      margin-top: 30px;
+      float: left;
+      margin-left: 130px;
+    }
+    .hex22{
+      float: left;
+      margin-top: 200px;
+
+    }
+  .hex3{
+    margin-top: 140px;
+  }
 
 
 

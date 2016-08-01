@@ -55,14 +55,17 @@
       font-weight: bold;
       display: block;
       text-decoration: none;
-      color: #bce8e7;
+      color: #593c1f;
       font-family: 'Orbitron', sans-serif; }
     .navdesktop-wrapper li a:hover {
-      background-color: #555; } }
+      background-color: #d9fff0; } }
 body {
   margin: 0;
   color: #cfbea5;
   background-color: #fbffd9; }
+
+.hex2 {
+  margin-top: 10px; }
 
 #home {
   width: 100%;
@@ -79,100 +82,110 @@ body {
 
 #colors {
   background-color: white !important;
-  width: 100%; }
+  width: 100%;
+  height: 100vh; }
 
-#flexbox {
-  max-width: 740px;
-  display: flex;
-  margin: 0 auto; }
+.figcaption1 {
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  background-color: grey; }
 
-#flexbox1 {
-  max-width: 740px;
-  display: flex; }
+.figcaption2 {
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  background-color: grey; }
 
-.column2 {
-  padding: 10px;
-  margin: 10px;
-  flex-grow: 1;
-  flex-shrink: 1; }
+.figcaption3 {
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  background-color: grey; }
 
-#flexbox2 {
-  max-width: 740px;
-  display: flex; }
+.figcaption4 {
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  background-color: grey; }
 
-.column {
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: 10px;
-  margin: 10px; }
+.figcaption5 {
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  background-color: grey; }
 
-.column:first-of-type {
-  flex-grow: 1;
-  flex-shrink: 1; }
+.figcaption6 {
+  float: left;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  background-color: grey; }
 
-.column2:first-of-type {
-  flex-grow: 1;
-  flex-shrink: 1; }
+.labelfig1 {
+  float: left;
+  margin: 5%; }
 
-.columnelm {
-  margin-left: 15%;
-  margin-top: 20%; }
+.labelfig2 {
+  float: left;
+  margin: 5%; }
 
-.columnheader {
-  margin-left: 55%;
-  margin-top: 20%; }
+.labelfig3 {
+  float: left;
+  margin: 5%; }
 
-#colhead {
-  max-width: 740px;
-  display: flex; }
+.labelfig4 {
+  float: left;
+  margin: 5%; }
 
-.columnheader {
-  margin: 10px; }
+.labelfig5 {
+  float: left;
+  margin: 5%; }
 
-#col {
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
-  color: black; }
+.labelfig6 {
+  float: left;
+  margin: 5%; }
 
-/*flex-->
+.labelfig1:hover {
+  opacity: 0.1; }
 
+.labelfig2:hover {
+  opacity: 0.1; }
 
-.column2:first-child {
-	margin-right: 20px!important;
-}
+.labelfig3:hover {
+  opacity: 0.1; }
 
+.labelfig4:hover {
+  opacity: 0.1; }
 
-.column2{
-  margin:10px;
-  border: 5px solid red;
-  flex-grow: 2;
-  flex-shrink: 2;
-}
-.column2:first-of-type{
- flex-grow: 3;
- flex-shrink:3;
-}
-#flexbox-first-of-type .column:first-of-type{
+.labelfig5:hover {
+  opacity: 0.1; }
 
-  flex: 2 2 22px;
-}
+.labelfig6:hover {
+  opacity: 0.1; }
 
-#flexbox2-first-of-type .column:first-of-type{
-
-  flex: 2 2 22px;
-}
-*/
-.box {
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  margin: auto; }
-
+/*end fig------*/
 #portfolios {
   width: 100%;
-  height: 100vh;
-  background-color: pink; }
+  display: table;
+  background-color: #bdcfbd; }
+
+.hex1 {
+  margin-top: 30px;
+  float: left;
+  margin-left: 130px; }
+
+.hex22 {
+  float: left;
+  margin-top: 200px; }
+
+.hex3 {
+  margin-top: 140px; }
 
 #elements {
   background-color: white;
